@@ -3,37 +3,29 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
+*.egg
 *.egg-info/
 dist/
 build/
-*.egg
 
 # Virtual environments
 venv/
+.env/
 env/
-.venv/
-
-# ML Model (auto-generated if missing)
-crypto_model.joblib
-
-# Test binary (auto-generated via generate_test_binary.py)
-test_firmware.elf
 
 # IDE
 .vscode/
 .idea/
 *.swp
-*.swo
-*~
 
 # OS
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# Streamlit
-.streamlit/
+# Generated files
+*.joblib
+*.elf
+*.bin
 
-# Misc
+# Logs
 *.log
-*.tmp
